@@ -1,0 +1,11 @@
+stages:
+ - test
+ - deploy
+test:
+ stage: test
+ script:
+ - echo "Ejecutando pruebas"
+deploy:
+ stage: deploy
+ script:
+ - echo "Implementación en producción"
